@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    font-family: 'Inter', sans-serif;
+    background-color: #FDFCFC;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar{
+    width: 1076px;
+    margin-left: 370px;
+    margin-top: 46px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;    
+}
+
+a{
+    text-decoration: none;
+    color: #272D38;
+}
+
+.digital{
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.home{
+    margin-left: 480px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.about{
+    margin-left: 44px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.testimonials{
+    margin-left: 44px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact{
+    margin-left: 44px;
+    font-size: 18px;
+    font-weight: 400;
+}
