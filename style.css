@@ -26,7 +26,7 @@ body {
 }
 
 .container {
-    width: 1056px;
+    width: 1065px;
     margin: 0 auto;
 }
 
@@ -66,8 +66,12 @@ li {
 }
 
 .container-building{
-    width: 1056px;
     margin-top: 97px;
+}
+
+.main-text{
+    display: inline-block;
+    margin-right: 73px ;
 }
 
 .main-header{
@@ -77,3 +81,20 @@ li {
     font-weight: 700;
 
 }
+
+.p-main{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.btn-contact-us{
+    width: 167px;
+    height: 48px;
+    background-color: #8EADD5;
+    border-radius: 8px;
+    border: 0;
+    color:#FFFFFF;
+    font-size: 16px;
+}
+
