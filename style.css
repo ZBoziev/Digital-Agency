@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    font-family: 'Inter', sans-serif;
+    background-color: #FDFCFC;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.circle {
+    width: 679px;
+    height: 679px;
+    border-radius: 50%;
+    background: url("img/Ellipse2.svg") no-repeat center center;
+    background-size: 679px 679px;
+    position: absolute;
+    top: -324px;
+    left: -221px;
+
+}
+
+.container {
+    width: 1056px;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    width: 1076px;
+    margin: 46px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item{
+    display: flex;
+    gap: 44px;  
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+    color: #272D38;
+}
+
+.digital {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #272D38;
+}
+.menu-list {
+    text-decoration: none;
+    color: #272D38;
+    list-style-type: none;
+    display: inline;
+    gap: 44px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container-building{
+    width: 1056px;
+    margin-top: 97px;
+}
+
+.main-header{
+    padding: 0;
+    margin-top: 42px;
+    font-size: 64px;
+    font-weight: 700;
+
+}
