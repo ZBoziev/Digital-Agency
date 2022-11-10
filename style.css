@@ -98,3 +98,24 @@ li {
     margin: 39px auto 0;
 }
 
+.container-company-trust{
+   
+    width: 915px;
+    margin: 157px auto 0;
+}
+
+.p-trusted{
+    margin: 0;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+}
+
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 115px;
+    width: 867px;
+    margin: 16px auto 0;
+
+}
