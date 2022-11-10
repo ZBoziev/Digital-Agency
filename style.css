@@ -32,7 +32,7 @@ body {
 
 .nav-bar {
     width: 1076px;
-    margin: 46px auto;
+    margin: 46px auto 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,17 +66,16 @@ li {
 }
 
 .container-building{
-    margin-top: 97px;
+    display: inline-flex;
+    margin-top: 97px;   
 }
 
 .main-text{
-    display: inline-block;
-    margin-right: 73px ;
+    margin: 0 75px 0 0;
 }
 
 .main-header{
-    padding: 0;
-    margin-top: 42px;
+    margin: 42px auto 0;
     font-size: 64px;
     font-weight: 700;
 
@@ -85,7 +84,7 @@ li {
 .p-main{
     font-size: 18px;
     font-weight: 400;
-    margin-top: 24px;
+    margin: 24px auto 0;
 }
 
 .btn-contact-us{
@@ -96,5 +95,6 @@ li {
     border: 0;
     color:#FFFFFF;
     font-size: 16px;
+    margin: 39px auto 0;
 }
 
