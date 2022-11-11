@@ -117,5 +117,9 @@ li {
     gap: 115px;
     width: 867px;
     margin: 16px auto 0;
+}
 
+.logos-list{
+    display: flex;
+    gap: 115px;
 }
