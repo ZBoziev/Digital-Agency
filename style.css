@@ -99,7 +99,6 @@ li {
 }
 
 .container-company-trust{
-   
     width: 915px;
     margin: 157px auto 0;
 }
@@ -123,3 +122,27 @@ li {
     display: flex;
     gap: 115px;
 }
+
+.container-branding-section{
+    width: 1065px;
+    margin: 136px auto 0;
+    display: flex;
+}
+
+.header-branding{
+    margin: 97px 0 0 179px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.p-branding{
+    margin: 25px 43px 0 179px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-arrow{
+    margin: 45px auto 0 179px;
+    border: 0;
+}
+
