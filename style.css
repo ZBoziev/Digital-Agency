@@ -123,26 +123,44 @@ li {
     gap: 115px;
 }
 
-.container-branding-section{
+.container-section{
     width: 1065px;
     margin: 136px auto 0;
     display: flex;
 }
 
+.img-designer{
+    margin: 0 179px 0 0;
+}
+
+.main-block{
+    width: 436px;
+}
+
 .header-branding{
-    margin: 97px 0 0 179px;
+    margin: 97px 0 0 0;
     font-size: 48px;
     font-weight: 700;
 }
 
 .p-branding{
-    margin: 25px 43px 0 179px;
+    margin: 25px 43px 0 0;
     font-size: 16px;
     font-weight: 400;
 }
 
 .btn-arrow{
-    margin: 45px auto 0 179px;
+    margin: 45px auto 0 0;
     border: 0;
+    background-color: #FFFFFF;
 }
 
+.header-custome{
+    margin: 97px 0 0 0;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.img-businessman{
+    margin: 0 0 0 179px;
+}
