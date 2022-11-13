@@ -78,6 +78,7 @@ li {
     margin: 42px auto 0;
     font-size: 64px;
     font-weight: 700;
+    line-height: 64px;
 
 }
 
@@ -85,6 +86,7 @@ li {
     font-size: 18px;
     font-weight: 400;
     margin: 24px auto 0;
+    line-height: 27.5px;
 }
 
 .btn-contact-us{
@@ -101,6 +103,8 @@ li {
 .container-company-trust{
     width: 915px;
     margin: 157px auto 0;
+    background-color: #F6F6F6;
+    border-radius: 8px;
 }
 
 .p-trusted{
@@ -141,12 +145,14 @@ li {
     margin: 97px 0 0 0;
     font-size: 48px;
     font-weight: 700;
+    line-height: 48px;
 }
 
 .p-branding{
     margin: 25px 43px 0 0;
     font-size: 16px;
     font-weight: 400;
+    line-height: 27.5px;
 }
 
 .btn-arrow{
@@ -164,3 +170,141 @@ li {
 .img-businessman{
     margin: 0 0 0 179px;
 }
+
+.main-testimonial{
+    display: block;
+}
+
+.testimonials-head{
+    display: block;
+    margin: 0 auto;
+}
+
+.p-testimonials{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header-testimonials{
+    margin: 16px auto 0;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.personal-testimonials{
+    display: flex;
+    margin: 38px 0 0 0;
+    
+}
+
+.testimonial{
+    width: 345px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    text-align: center;
+}
+.testimonial:not(:last-child){
+    margin-right: 15px;
+}
+
+.personal{
+    width: 129px;
+    border-radius: 96.5px;
+}
+
+.name-personal{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 8px auto;
+}
+
+.description-personal{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 27px 0 0 0;
+    line-height: 18.2px;
+}
+
+.container-section :nth-child(4){
+    background-color: black;
+    border-radius: 20px;
+}
+
+.customer{
+    margin: 0 90px 0 75px;
+}
+
+.header-customer{
+    margin: 100px 0 0 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.p-customer{
+    margin: 16px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.5px;
+}
+
+footer{
+    display: flex;
+    margin: 138px auto 0;
+    height: 443px;
+}
+
+.logo{
+    margin: 0;
+    padding: 0;
+    width: 189.29px;
+}
+
+.building-link{
+    padding-top: 40px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.resources{
+    width: 141px;
+    margin: 0;
+    padding: 0;
+}
+
+.company{
+    width: 85.23px;
+    margin: 0;
+    padding: 0;
+}
+
+.social-media{
+    width: 123.29px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-list{
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27.5px;
+}
+
+.first-link{
+    margin: 32px auto 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.link-list{
+
+}
+
+
+
