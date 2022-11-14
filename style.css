@@ -257,34 +257,41 @@ footer{
     height: 443px;
 }
 
+.footer-menu{
+    display: flex;
+    color: #272D38;
+    
+}
+
 .logo{
-    margin: 0;
-    padding: 0;
     width: 189.29px;
+    margin: 105px 178px 0 45px;
+    padding: 0;    
 }
 
 .building-link{
-    padding-top: 40px;
+    margin-top: 40px;
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
+    text-decoration: none;
 }
 
 .resources{
     width: 141px;
-    margin: 0;
+    margin: 105px 178px 0 0;
     padding: 0;
 }
 
 .company{
     width: 85.23px;
-    margin: 0;
+    margin: 105px 178px 0 0;
     padding: 0;
 }
 
 .social-media{
     width: 123.29px;
-    margin: 0;
+    margin: 105px auto;
     padding: 0;
 }
 
@@ -300,10 +307,12 @@ footer{
     font-size: 16px;
     font-weight: 300;
     line-height: 16px;
+    text-decoration: none;
 }
 
 .link-list{
-
+    text-decoration: none;
+    margin-top: 24px;
 }
 
 
