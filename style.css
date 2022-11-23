@@ -5,7 +5,6 @@
 }
 
 body {
-    width: 1440px;
     font-family: 'Inter', sans-serif;
     background-color: #FDFCFC;
     padding: 0;
@@ -25,11 +24,6 @@ body {
 
 }
 
-.container {
-    width: 1065px;
-    margin: 0 auto;
-}
-
 .nav-bar {
     width: 1076px;
     margin: 46px auto 0;
@@ -38,7 +32,14 @@ body {
     align-items: center;
 }
 
-.menu-item{
+.container {
+    width: 1065px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list{
     display: flex;
     gap: 44px;  
 }
@@ -49,13 +50,15 @@ li {
     color: #272D38;
 }
 
-.digital {
+.logo {
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
+    line-height: 24.2px;
     color: #272D38;
+    text-transform: uppercase;
 }
-.menu-list {
+.menu-item {
     text-decoration: none;
     color: #272D38;
     list-style-type: none;
@@ -65,109 +68,108 @@ li {
     font-weight: 400;
 }
 
-.container-building{
-    display: inline-flex;
+.hero-section{
     margin-top: 97px;   
 }
 
-.main-text{
-    margin: 0 75px 0 0;
+.main-hero-section{
+    margin-right: 75px;
 }
 
-.main-header{
+.main-hero-section-heading{
     margin: 42px auto 0;
     font-size: 64px;
     font-weight: 700;
     line-height: 64px;
-
 }
 
-.p-main{
+.main-hero-section-text{
+    width: 525px;
     font-size: 18px;
     font-weight: 400;
-    margin: 24px auto 0;
+    margin: 42px 0 0 0;
     line-height: 27.5px;
 }
 
-.btn-contact-us{
-    width: 167px;
-    height: 48px;
+.button-hero-section{
     background-color: #8EADD5;
     border-radius: 8px;
     border: 0;
     color:#FFFFFF;
     font-size: 16px;
-    margin: 39px auto 0;
+    padding: 10px 31px 10px 31px;
+    text-transform: uppercase;
+    cursor: pointer;
+    line-height: 27.5px;
 }
 
-.container-company-trust{
-    /* width: 915px; */
-    margin: 157px auto 0;
+.button-hero-section{
+margin-top: 39px;
+}
+
+.companies-section{
+    display: block;
+    width: 915px;
+    margin-top: 157px;
     background-color: #F6F6F6;
     border-radius: 8px;
 }
 
-.p-trusted{
+.companies-section-text{
     margin: 0;
     font-weight: 300;
     font-size: 16px;
     text-align: center;
 }
 
-.logos{
+.companies-section-logos{
     display: flex;
     flex-wrap: wrap;
     gap: 115px;
     width: 867px;
-    margin: 16px auto 0;
+    margin: 16px 0 0 0;
 }
 
-.logos-list{
+.companies-section-logos-list{
     display: flex;
     gap: 115px;
 }
 
-.container-section{
-    /* width: 1065px; */
+.main-section{
     margin: 136px auto 0;
-    display: flex;
 }
 
-.img-designer{
+.image-custome-section{
     margin: 0 179px 0 0;
 }
 
 .main-block{
-    width: 436px;
+    width: 435.69px;
 }
 
-.header-branding{
+.heading-main-block{
+    width: 435.69px;
     margin: 97px 0 0 0;
     font-size: 48px;
     font-weight: 700;
     line-height: 48px;
 }
 
-.p-branding{
+.text-main-block{
     margin: 25px 43px 0 0;
     font-size: 16px;
     font-weight: 400;
     line-height: 27.5px;
 }
 
-.btn-arrow{
+.main-section-arrow{
     margin: 45px auto 0 0;
     border: 0;
     background-color: #FFFFFF;
+    cursor: pointer;
 }
 
-.header-custome{
-    margin: 97px 0 0 0;
-    font-size: 48px;
-    font-weight: 700;
-}
-
-.img-businessman{
+.image-businessman-analyzing{
     margin: 0 0 0 179px;
 }
 
@@ -175,30 +177,24 @@ li {
     display: block;
 }
 
-.testimonials-head{
+.testimonial-list{
     display: block;
     margin: 0 auto;
 }
 
-.p-testimonials{
+.testimonial-text{
     margin: 0 auto;
     text-align: center;
-    font-size: 16px;
-    font-weight: 400;
 }
 
-.header-testimonials{
+.testimonial-heading{
     margin: 16px auto 0;
     text-align: center;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 48px;
 }
 
-.personal-testimonials{
+.testimonial-personal{
     display: flex;
     margin: 38px 0 0 0;
-    
 }
 
 .testimonial{
@@ -211,21 +207,23 @@ li {
     margin-right: 15px;
 }
 
-.personal{
+.profile-image{
     width: 129px;
     border-radius: 96.5px;
 }
 
-.name-personal{
+.profile-name{
     font-size: 18px;
     font-weight: 400;
     margin: 8px auto;
+    line-height: 27.5px;
 }
 
 .description-personal{
+    width: 281px;
     font-size: 14px;
     font-weight: 300;
-    margin: 27px 0 0 0;
+    margin: 27px auto 0;
     line-height: 18.2px;
 }
 
@@ -234,38 +232,32 @@ li {
     border-radius: 20px;
 }
 
-.customer{
+.customer-suppoter-image{
     margin: 0 90px 0 75px;
 }
 
-.header-customer{
-    margin: 100px 0 0 0;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 48px;
-}
-.p-customer{
-    margin: 16px 0 0 0;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 27.5px;
+.customer-text{
+    width: 360px;
 }
 
-footer{
-    display: flex;
+.footer-block{
+    /* margin-top: 138px; */
+    /* display: flex; */
     margin: 138px auto 0;
-    height: 443px;
+    /* height: 443px; */
 }
 
 .footer-menu{
     display: flex;
     color: #272D38;
+    /* margin: 0 auto; */
+    padding-left: 183.32px;
     
 }
 
-.logo{
+.logo-link{
     width: 189.29px;
-    margin: 105px 178px 0 45px;
+    margin: 105px 178px 0 0;
     padding: 0;    
 }
 
@@ -275,33 +267,34 @@ footer{
     font-weight: 300;
     line-height: 24px;
     text-decoration: none;
+    color: #272D38;
 }
 
-.resources{
+.resources-footer{
     width: 141px;
     margin: 105px 178px 0 0;
     padding: 0;
 }
 
-.company{
+.company-footer{
     width: 85.23px;
     margin: 105px 178px 0 0;
     padding: 0;
 }
 
-.social-media{
-    width: 123.29px;
-    margin: 105px auto;
+.social-media-footer{
+    width: 124px;
+    margin: 105px 0 0 0;
     padding: 0;
 }
 
 .footer-list{
     font-size: 18px;
     font-weight: 700;
-    line-height: 27.5px;11
+    line-height: 27.5px;
 }
 
-.first-link{
+.first-item-link{
     display: block;
     margin: 32px auto 0;
     font-size: 16px;
@@ -311,7 +304,7 @@ footer{
     color: #272D38;
 }
 
-.link-list{
+.link-item{
     display: block;
     text-decoration: none;
     margin-top: 24px; 
@@ -319,6 +312,11 @@ footer{
     color: #272D38;
 }
 
+.footer-copyright{
+    text-align: center;
+    margin-top: 110px;
+}
+/* 
 @media (max-width:1000px){
  .nav-bar  {
     max-width: 400px;
@@ -341,7 +339,7 @@ footer{
    @media (max-width:1000px){
     .logos {
        max-width: 400px;
-   }
-   }
+   } */
+/* } */
    
       
