@@ -91,7 +91,7 @@ li {
     line-height: 27.5px;
 }
 
-.button-hero-section{
+.button{
     background-color: #8EADD5;
     border-radius: 8px;
     border: 0;
@@ -241,23 +241,23 @@ margin-top: 39px;
 }
 
 .footer-block{
-    /* margin-top: 138px; */
-    /* display: flex; */
     margin: 138px auto 0;
-    /* height: 443px; */
+    background-color: #F6F6F6;
 }
 
 .footer-menu{
+    width: 1076px;
     display: flex;
     color: #272D38;
-    /* margin: 0 auto; */
-    padding-left: 183.32px;
-    
+    margin: 0 auto;
+}
+
+.links{
+    margin: 105px 178px 0 0;
 }
 
 .logo-link{
     width: 189.29px;
-    margin: 105px 178px 0 0;
     padding: 0;    
 }
 
@@ -272,13 +272,11 @@ margin-top: 39px;
 
 .resources-footer{
     width: 141px;
-    margin: 105px 178px 0 0;
     padding: 0;
 }
 
 .company-footer{
     width: 85.23px;
-    margin: 105px 178px 0 0;
     padding: 0;
 }
 
@@ -316,30 +314,111 @@ margin-top: 39px;
     text-align: center;
     margin-top: 110px;
 }
-/* 
-@media (max-width:1000px){
+ 
+@media (max-width:428px) and (min-width:400px)
+{
  .nav-bar  {
-    max-width: 400px;
+    width: 400px;
+    margin: 0;
 }
+
+.logo{
+    width: 100px;
+    margin: 49px 0 0 24px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.54px;
+    text-transform: none;
 }
 
-@media (max-width:1000px){
-    .container-section  {
-       max-width: 400px;
-   }
-   }
-   
+.main-menu{
+    display: none;
+}
 
-   @media (max-width:1000px){
-    footer {
-       max-width: 400px;
-   }
-   }
+.container {
+    width: 380px;
+    margin: 0 auto;
+    display: block;
+    justify-content: space-between;
+}
 
-   @media (max-width:1000px){
-    .logos {
-       max-width: 400px;
-   } */
-/* } */
-   
+.hero-section{
+    margin: 95px auto 0;   
+}
+
+.main-hero-section-heading{
+    width: 378px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+
+.main-hero-section-text{
+    width: 378px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    line-height: 27.5px;
+    text-align: center;
+}
+
+.button-hero-section{
+    margin-top: 24px;
+    margin-left: 120px;
+    }
+
+.hero-section-image{
+    width: 358px;
+    margin: 48px 9px 0 11px;
+}
+
+.companies-section{
+    display: block;
+    width: 380px;
+    margin-top: 120px;
+    background-color: #F6F6F6;
+    border-radius: 8px;
+}
+
+.companies-section-text{
+    margin: 0;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.companies-section-logos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 380px;
+    gap: 29.61px;
+    margin: 16px 0 0 0;
+}
+
+.companies-section-logos-list{
+    display: flex;
+    width: 380px;
+    gap: 29.61px;
+}
+
+.spotify-image{
+width: 70px;
+}
+
+.slack-image{
+width: 60px;
+}
+
+.dropbox-image{
+width: 80px;
+}
+
+.zoom-image{
+width: 49px;
+}
+
+}
+
       
