@@ -315,8 +315,16 @@ margin-top: 39px;
     margin-top: 110px;
 }
  
-@media (max-width:428px) and (min-width:400px)
+@media (max-width:428px)
 {
+body {
+        font-family: 'Inter', sans-serif;
+        background-color: #FDFCFC;
+        padding: 0;
+        margin: 0 auto;
+        position: relative;
+}
+
  .nav-bar  {
     width: 400px;
     margin: 0;
@@ -346,8 +354,13 @@ margin-top: 39px;
     margin: 95px auto 0;   
 }
 
+.main-hero-section{
+    margin: 0 auto 0;
+}
+
 .main-hero-section-heading{
     width: 378px;
+    margin: 0 auto 0;
     font-size: 40px;
     font-weight: 700;
     line-height: 40px;
@@ -358,14 +371,13 @@ margin-top: 39px;
     width: 378px;
     font-size: 16px;
     font-weight: 400;
-    margin-top: 24px;
+    margin: 24px auto 0;
     line-height: 27.5px;
     text-align: center;
 }
 
 .button-hero-section{
-    margin-top: 24px;
-    margin-left: 120px;
+    margin: 24px auto 0;
     }
 
 .hero-section-image{
@@ -417,6 +429,100 @@ width: 80px;
 
 .zoom-image{
 width: 49px;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    text-align: center;
+    margin-top: 88px;
+}
+
+.main-block{
+    order: 1;
+}
+
+.image-custome-section{
+    margin: 24.46px auto 0;
+    order: 2;
+}
+
+.heading-main-block{
+    width: 380px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.text-main-block{
+    margin: 24px auto 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27.5px;
+}
+
+.main-section-arrow{
+    margin: 32px auto;
+    transform: rotate(90deg)
+}
+
+.image-businessman-analyzing{
+    width: 375px;
+    margin: 24.46px auto;
+    order: 2;
+}
+
+.testimonial-personal{
+    flex-direction: column;
+}
+
+.testimonial{
+    margin: 40px auto 0;
+}
+
+.description-personal{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18.2px;
+}
+
+.customer-suppoter-image{
+    display: none;
+}
+
+.footer-block{
+    width: 380px;
+    margin: 128px auto 0 24px;
+
+}
+
+.footer-menu{
+    width: 380px;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+}
+
+.logo-link{
+    margin: 104px auto 0;
+}
+
+.resources-footer{
+    margin: 72px auto 0;
+} 
+
+.company-footer{
+    margin: 72px auto 0;
+}
+
+.social-media-footer{
+    margin: 72px auto 0;
+}
+
+.footer-copyright{
+    margin: 92px auto 0;
 }
 
 }
