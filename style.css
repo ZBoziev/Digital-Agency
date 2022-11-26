@@ -326,6 +326,7 @@ body {
 }
 
  .nav-bar  {
+    position: relative;
     width: 400px;
     margin: 0;
 }
@@ -348,6 +349,33 @@ body {
     margin: 0 auto;
     display: block;
     justify-content: space-between;
+}
+
+.drop-main-menu {
+    display: block;
+    width: 24px;
+    height: 24px;
+    
+}
+
+.drop-menu-button{
+    position: absolute;
+    right: 20px;
+    top: 43px;
+    background-color: #FDFCFC;
+    border: none;
+}
+
+.drop-menu-list{
+    width: 20px;
+    gap: 6.22px;
+}
+
+.drop-menu-item{
+    width: 20px;
+    height: 1.05px;
+    background-color: #272D38;
+    margin-top: 6.22px;
 }
 
 .hero-section{
@@ -378,7 +406,7 @@ body {
 
 .button-hero-section{
     margin: 24px auto 0;
-    }
+}
 
 .hero-section-image{
     width: 358px;
@@ -527,4 +555,11 @@ width: 49px;
 
 }
 
+@media (min-width: 429px) {
+
+    .drop-main-menu {
+        display: none;
+    }
+    
+}
       
